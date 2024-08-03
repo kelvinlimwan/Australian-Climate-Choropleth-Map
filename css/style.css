@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    background-color: #f7f9fc;
+    color: #333333;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header-band {
+    background-color: #4a90e2;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Map */
+#map svg {
+    margin-left: 20px;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+/* Buttons */
+#reset-button, #play-button {
+    width: 120px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #4a90e2;
+    border-color: #4a90e2;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #357ABD;
+    border-color: #357ABD;
+}
+
+.btn-secondary {
+    background-color: #7B8A8B;
+    border-color: #7B8A8B;
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+    background-color: #5A6A6B;
+    border-color: #5A6A6B;
+}
+
+/* Slider */
+#slider-div {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Date and Season Labels */
+#dateLabel {
+    font-weight: bold;
+}
+
+#seasonLabel {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 1em;
+}
+
+/* Tooltip */
+#tooltip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -100%);
+    font-size: 0.9em;
+    visibility: hidden;
+    width: 150px;
+    padding: 8px;
+    color: #ffffff;
+    background-color: #333333;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Axis */
+.axis text {
+    font-size: 12px;
+    fill: #333333;
+}
+
+/* Slider Colors */
+.ui-slider-range-winter {
+    background: #b0e0e6;
+}
+
+.ui-slider-range-spring {
+    background: #98fb98;
+}
+
+.ui-slider-range-summer {
+    background: #ffeb99;
+}
+
+.ui-slider-range-autumn {
+    background: #f5b07f;
+}
+
+/* Season Text Colors */
+.winter {
+    color: #b0e0e6;
+}
+
+.spring {
+    color: #98fb98;
+}
+
+.summer {
+    color: #ffeb99;
+}
+
+.autumn {
+    color: #f5b07f;
+}
+
+/* Zoom */
+#zoom-controls {
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#zoom-controls button {
+    font-size: 18px;
+    padding: 3px 10px;
+    margin-right: 5px;
+}
+
+
+/* Loading Overlay */
+#loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+#loading-overlay p {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4a90e2;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Australia's Climate Chronicles: A Visual Exploration</title>
+  <!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- jQueryUI styling -->
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <!-- Custom styling -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Loading overlay -->
+  <div id="loading-overlay">
+    <p>Loading...</p>
+  </div>
+
+  <!-- Header band -->
+  <header class="header-band">
+    <div class="container">
+      <h2>Australia's Climate Chronicles: A Visual Exploration</h2>
+    </div>
+  </header>
+
+  <!-- Bootstrap grid setup -->
+  <div class="container mt-1">
+    <div class="row mb-1 justify-content-center align-items-end">
+      <div class="col-md-6 d-flex">
+        <button id="play-button" class="btn btn-primary mr-5">Play</button>
+        <button id="reset-button" class="btn btn-primary mr-5">Reset</button>
+        <div id="slider-div" class="w-100">
+          <label for="date-slider" class="form-label">Date: <span id="dateLabel"></span> <span id="seasonLabel"></span></label>
+          <div id="date-slider"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-1 justify-content-center">
+        <div id="zoom-controls">
+          <button id="zoom-in" class="btn btn-secondary">+</button>
+          <button id="zoom-out" class="btn btn-secondary">-</button>
+        </div>
+        <div id="map"></div>
+        <div id="legend"></div>
+    </div>
+  </div>
+  <div id="tooltip"></div>
+
+  <!-- External JS libraries -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://d3js.org/topojson.v1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
