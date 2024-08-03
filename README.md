@@ -40,9 +40,9 @@ This project provides an interactive visualisation of Australia's temperatures a
 
    - Open your web browser and go to http://localhost:8080 to view the application.
 
-## Deployment
+## Playground
 
-The project is hosted on GitHub Pages. You can view it live at: https://kelvinlimwan.github.io/Australian-Climate-Choropleth-Map/
+The project is also hosted on GitHub Pages. You can view it live [here](https://kelvinlimwan.github.io/Australian-Climate-Choropleth-Map/)
 
 ## Contributing
 
