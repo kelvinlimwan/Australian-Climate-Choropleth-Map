@@ -1,4 +1,4 @@
-# Australian-Climate-Choropleth-Map
+# Australian Climate Choropleth Map
 
 ## Overview
 
