@@ -25,7 +25,7 @@ This project provides an interactive visualisation of Australia's temperatures a
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git](https://github.com/kelvinlimwan/Australian-Climate-Choropleth-Map.git
+   git clone [https://github.com/kelvinlimwan/Australian-Climate-Choropleth-Map.git](https://github.com/kelvinlimwan/Australian-Climate-Choropleth-Map.git)
    cd Australian-Climate-Choropleth-Map
    ```
 
@@ -42,7 +42,7 @@ This project provides an interactive visualisation of Australia's temperatures a
 
 ## Deployment
 
-The project is hosted on GitHub Pages. You can view it live at: [https://kelvinlimwan.github.io/Australian-Climate-Choropleth-Map/]([https://your-username.github.io/your-repo/](https://kelvinlimwan.github.io/Australian-Climate-Choropleth-Map/))
+The project is hosted on GitHub Pages. You can view it live at: [https://kelvinlimwan.github.io/Australian-Climate-Choropleth-Map/]([https://your-username.github.io/your-repo/](https://kelvinlimwan.github.io/Australian-Climate-Choropleth-Map/)
 
 ## Contributing
 
