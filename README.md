@@ -17,7 +17,7 @@ This project provides an interactive visualisation of Australia's temperatures a
 - **CSS**: Styling and layout of the web pages.
 - **JavaScript**: Interactive elements and data visualisation.
 - **D3.js**: Library for creating dynamic, interactive data visualisations.
-- **Python**: Data collection, preprocessing, and exploratory data analysis (EDA), ensuring accurate and insightful temperature data.
+- **Python**: Data preprocessing, and exploratory data analysis (EDA), ensuring accurate and insightful temperature data.
 - **GitHub Pages**: Hosting the web application for public access.
 
 ## Setup and Usage
